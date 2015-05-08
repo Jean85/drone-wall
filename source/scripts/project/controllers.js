@@ -21,7 +21,7 @@ angular.module( "wall.controllers", [] )
 
         $scope.maxRepos   = 8;
         $scope.maxBuilds  = 5;
-        $scope.maxLeaders = 4;
+        $scope.maxLeaders = 6;
 
         $scope.now = moment();
         var pollTime = null;
